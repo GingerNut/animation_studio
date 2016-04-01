@@ -22,6 +22,7 @@ abstract class StageView extends View{
   attach(View parent){
     container.children.clear();
     super.attach(parent);
+
     loop = new Renderloop(this);
 
     parent.container.onMouseUp.listen(selectEnd);

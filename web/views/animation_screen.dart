@@ -7,10 +7,13 @@ class AnimationScreen extends Screen{
   AnimationPanel animationPanel = new AnimationPanel();
 
   AnimationScreen(){
-
-    layout = new HorizontalLayout()
-      ..add(transitionView)
+    layout = new VerticalLayout()
+    ..add(new HorizontalLayout()
+      .. add(new VerticalLayout()
+          ..add(transitionView)
+          .. add(animationPanel)
+          ..weight = 2)
       ..add(summaryPanel)
-      .. add(animationPanel);
+    );
   }
 }

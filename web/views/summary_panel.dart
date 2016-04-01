@@ -6,7 +6,7 @@ class SummaryPanel extends StageView{
 
   @override
   onSelectEnd(List<Skeleton> targets, List<Skeleton> landing) {
-    // TODO: implement onSelectEnd
+    print('summary');
   }
 
   @override
@@ -16,6 +16,6 @@ class SummaryPanel extends StageView{
 
   @override
   onSelectStart(List<Part> targets) {
-    // TODO: implement onSelectStart
+
   }
 }

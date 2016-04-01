@@ -9,7 +9,7 @@ class AnimationPanel extends StageView{
 
   @override
   onSelectEnd(List<Skeleton> targets, List<Skeleton> landing) {
-    // TODO: implement onSelectEnd
+    print('animation');
   }
 
   @override
@@ -19,6 +19,6 @@ class AnimationPanel extends StageView{
 
   @override
   onSelectStart(List<Part> targets) {
-    // TODO: implement onSelectStart
+
   }
 }
