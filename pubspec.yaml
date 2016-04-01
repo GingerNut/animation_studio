@@ -1,0 +1,10 @@
+name: animation_studio
+version: 0.0.1
+description: A sample web application
+dependencies:
+  browser: any
+  stage:
+      path: C:/Users/Stephen/WebstormProjects/stage
+
+dev_dependencies:
+#  unittest: any
