@@ -12,7 +12,6 @@ class Tween extends Action {
   Transition transitionY;
   double _deltaSize = 0.0;
   Transition transitionSize;
-  List<Relationship> relationships = new List();
 
   Tween(Part part, num time) {
     period = time;
@@ -77,7 +76,6 @@ class Tween extends Action {
     super.animate(deltaTime);
 
     transitions.forEach((transition) => transition.update());
-    relationships.forEach( (rel) => rel.update());
 
    part.x += _deltaX * transitionX.delta;
     part.y += _deltaY * transitionY.delta;

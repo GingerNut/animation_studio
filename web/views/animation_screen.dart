@@ -4,7 +4,7 @@ class AnimationScreen extends Screen{
 
   TransitionsView transitionView = new TransitionsView();
   SummaryPanel summaryPanel = new SummaryPanel();
-  AnimiationPanel animationPanel = new AnimationPanel();
+  AnimationPanel animationPanel = new AnimationPanel();
 
   AnimationScreen(){
 
@@ -12,8 +12,5 @@ class AnimationScreen extends Screen{
       ..add(transitionView)
       ..add(summaryPanel)
       .. add(animationPanel);
-
   }
-
-
 }
